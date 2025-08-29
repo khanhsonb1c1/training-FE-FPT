@@ -1,0 +1,20 @@
+{
+  "app": {
+    "title": "Vite + Vue + TS Starter"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About"
+  },
+  "home": {
+    "welcome": "Welcome"
+  },
+  "about": {
+    "title": "About",
+    "body": "This is the about page."
+  },
+  "hello": {
+    "message": "Hello",
+    "callApi": "Call API"
+  }
+}

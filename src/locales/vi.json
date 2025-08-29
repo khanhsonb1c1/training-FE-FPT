@@ -1,0 +1,20 @@
+{
+  "app": {
+    "title": "Khởi tạo Vite + Vue + TS"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu"
+  },
+  "home": {
+    "welcome": "Xin chào"
+  },
+  "about": {
+    "title": "Giới thiệu",
+    "body": "Đây là trang giới thiệu."
+  },
+  "hello": {
+    "message": "Xin chào",
+    "callApi": "Gọi API"
+  }
+}

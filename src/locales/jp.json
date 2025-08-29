@@ -1,0 +1,20 @@
+{
+  "app": {
+    "title": "Vite + Vue + TS スターター"
+  },
+  "nav": {
+    "home": "ホーム",
+    "about": "紹介"
+  },
+  "home": {
+    "welcome": "ようこそ"
+  },
+  "about": {
+    "title": "紹介",
+    "body": "これは紹介ページです。"
+  },
+  "hello": {
+    "message": "こんにちは",
+    "callApi": "API を呼び出す"
+  }
+}
