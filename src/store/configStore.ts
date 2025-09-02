@@ -11,26 +11,40 @@ export const configStore = {
       return state.list;
     },
     getNum(state) {
-        return state.count
-    }
+      return state.count;
+    },
   },
   mutations: {
     increment(state) {
       state.count++;
     },
+    setList(state, value) {
+      state.list = value
+    }
   },
   actions: {
     increment({ commit }) {
-        commit("increment");
+      commit("increment");
     },
 
     // example call API
     async callAPI({ commit }) {
       //
       const body = {
-        field1: '123'
+        field1: "123",
+      };
+      //   apiClient.post('/api/call-api', body)
+
+       try {
+        // Giả sử file data nằm ở public/data/product.json
+      const res = await apiClient.get("/data/product.json");
+      console.log('res:: ', res.data)
+        commit("setList", res.data);
+      } catch (err) {
+        // commit("SET_ERROR", err.message || "Lỗi khi load users");
       }
-    //   apiClient.post('/api/call-api', body)
+
+      return true;
     },
   },
 };
